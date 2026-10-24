@@ -1,0 +1,70 @@
+{
+  "explainVersion": "1",
+  "queryPlanner": {
+    "namespace": "mongodb_loadtest_ycsb.usertable",
+    "parsedQuery": {
+      "_id": {
+        "$eq": "user6284781860667377211"
+      }
+    },
+    "indexFilterSet": false,
+    "queryHash": "9B5DE45B",
+    "planCacheShapeHash": "9B5DE45B",
+    "planCacheKey": "B4738D99",
+    "optimizationTimeMillis": 0,
+    "maxIndexedOrSolutionsReached": false,
+    "maxIndexedAndSolutionsReached": false,
+    "maxScansToExplodeReached": false,
+    "prunedSimilarIndexes": false,
+    "winningPlan": {
+      "isCached": false,
+      "stage": "EXPRESS_IXSCAN",
+      "keyPattern": "{ _id: 1 }",
+      "indexName": "_id_"
+    },
+    "rejectedPlans": []
+  },
+  "executionStats": {
+    "executionSuccess": true,
+    "nReturned": 1,
+    "executionTimeMillis": 0,
+    "totalKeysExamined": 1,
+    "totalDocsExamined": 1,
+    "executionStages": {
+      "isCached": false,
+      "stage": "EXPRESS_IXSCAN",
+      "keyPattern": "{ _id: 1 }",
+      "indexName": "_id_",
+      "keysExamined": 1,
+      "docsExamined": 1,
+      "nReturned": 1
+    }
+  },
+  "command": {
+    "find": "usertable",
+    "filter": {
+      "_id": "user6284781860667377211"
+    },
+    "limit": 1,
+    "$db": "mongodb_loadtest_ycsb"
+  },
+  "serverInfo": {
+    "host": "711b30d5df57",
+    "port": 27017,
+    "version": "8.0.34",
+    "gitVersion": "51db4515a6597aedcf6188ee4e48a27e65b065ae"
+  },
+  "serverParameters": {
+    "internalQueryFacetBufferSizeBytes": 104857600,
+    "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+    "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+    "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+    "internalQueryMaxBlockingSortMemoryUsageBytes": 104857600,
+    "internalQueryProhibitBlockingMergeOnMongoS": 0,
+    "internalQueryMaxAddToSetBytes": 104857600,
+    "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600,
+    "internalQueryFrameworkControl": "trySbeRestricted",
+    "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+  },
+  "ok": 1
+}

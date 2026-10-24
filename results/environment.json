@@ -1,0 +1,68 @@
+{
+  "mongo": {
+    "version": "8.0.34",
+    "hostInfo": {
+      "currentTime": "2026-10-24T08:27:26.280Z",
+      "hostname": "711b30d5df57",
+      "cpuAddrSize": 64,
+      "memSizeMB": {
+        "high": 0,
+        "low": 11795,
+        "unsigned": false
+      },
+      "memLimitMB": {
+        "high": 0,
+        "low": 2048,
+        "unsigned": false
+      },
+      "numCores": 16,
+      "numCoresAvailableToProcess": 16,
+      "numPhysicalCores": 8,
+      "numCpuSockets": 1,
+      "cpuArch": "x86_64",
+      "numaEnabled": false,
+      "numNumaNodes": 1
+    },
+    "storage": {
+      "name": "wiredTiger",
+      "supportsCommittedReads": true,
+      "oldestRequiredTimestampForCrashRecovery": {
+        "$timestamp": "0"
+      },
+      "supportsPendingDrops": true,
+      "dropPendingIdents": {
+        "high": 0,
+        "low": 0,
+        "unsigned": false
+      },
+      "supportsSnapshotReadConcern": true,
+      "readOnly": false,
+      "persistent": true,
+      "backupCursorOpen": false
+    }
+  },
+  "docker_server": {
+    "ServerVersion": "29.6.2",
+    "OperatingSystem": "Docker Desktop",
+    "OSType": "linux",
+    "Architecture": "x86_64",
+    "NCPU": 16,
+    "MemTotal": 12368625664,
+    "KernelVersion": "6.18.33.2-microsoft-standard-WSL2",
+    "Driver": "overlayfs"
+  },
+  "generator": {
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+    "cpu_count": 16,
+    "java": "openjdk version \"21.0.12.1\" 2026-08-18\nOpenJDK Runtime Environment (build 21.0.12.1+1-1-26.04.4-Ubuntu)\nOpenJDK 64-Bit Server VM (build 21.0.12.1+1-1-26.04.4-Ubuntu, mixed mode, sharing)",
+    "cpu_model": "13th Gen Intel(R) Core(TM) i5-13500H",
+    "maven": "\u001b[1mApache Maven 3.9.12\u001b[m"
+  },
+  "limits": {
+    "cpus": 2,
+    "memory_bytes": 2147483648,
+    "wiredtiger_cache_gib": 0.5
+  },
+  "image_digest": "sha256:4a4ab5d4834207389e0d7270fac988e21ffedccecba77991a552f755df229907",
+  "storage_notes": "Docker named volume on Docker Desktop overlayfs; underlying physical disk not isolated or characterized. Shared host, not a storage benchmark."
+}

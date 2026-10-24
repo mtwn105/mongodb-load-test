@@ -1,0 +1,23 @@
+	Command being timed: "./ycsb.sh run -s -P workload.properties -threads 8 -p recordcount=100000 -p mongodb.url=mongodb://127.0.0.1:27028/mongodb_loadtest_ycsb?w=1&readPreference=primary&readConcernLevel=local&maxPoolSize=128&retryWrites=false&waitQueueTimeoutMS=2000&connectTimeoutMS=5000&socketTimeoutMS=5000&serverSelectionTimeoutMS=5000 -p hdrhistogram.fileoutput=true -p hdrhistogram.output.path=/home/mtwn105/blog/posts/mongodb-load-test/project/results/experiment-1/t8-r1- -p maxexecutiontime=30"
+	User time (seconds): 37.81
+	System time (seconds): 10.15
+	Percent of CPU this job got: 158%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:30.20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 438148
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 122195
+	Voluntary context switches: 246443
+	Involuntary context switches: 13721
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 328
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

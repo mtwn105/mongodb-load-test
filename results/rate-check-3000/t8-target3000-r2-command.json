@@ -1,0 +1,21 @@
+[
+  "./ycsb.sh",
+  "run",
+  "-s",
+  "-P",
+  "workload.properties",
+  "-threads",
+  "8",
+  "-p",
+  "recordcount=100000",
+  "-p",
+  "mongodb.url=mongodb://127.0.0.1:27028/mongodb_loadtest_ycsb?w=1&readPreference=primary&readConcernLevel=local&maxPoolSize=128&retryWrites=false&waitQueueTimeoutMS=2000&connectTimeoutMS=5000&socketTimeoutMS=5000&serverSelectionTimeoutMS=5000",
+  "-p",
+  "hdrhistogram.fileoutput=true",
+  "-p",
+  "hdrhistogram.output.path=/home/mtwn105/blog/posts/mongodb-load-test/project/results/rate-check-3000/t8-target3000-r2-",
+  "-target",
+  "3000",
+  "-p",
+  "maxexecutiontime=30"
+]

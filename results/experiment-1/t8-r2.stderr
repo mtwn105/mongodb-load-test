@@ -1,0 +1,78 @@
+Command line: -t -db site.ycsb.db.MongoDbClient -s -P workload.properties -threads 8 -p recordcount=100000 -p mongodb.url=mongodb://127.0.0.1:27028/mongodb_loadtest_ycsb?w=1&readPreference=primary&readConcernLevel=local&maxPoolSize=128&retryWrites=false&waitQueueTimeoutMS=2000&connectTimeoutMS=5000&socketTimeoutMS=5000&serverSelectionTimeoutMS=5000 -p hdrhistogram.fileoutput=true -p hdrhistogram.output.path=/home/mtwn105/blog/posts/mongodb-load-test/project/results/experiment-1/t8-r2- -p maxexecutiontime=30
+YCSB Client 0.17.0
+
+Loading workload...
+Starting test.
+Maximum execution time specified as: 30 secs
+2026-10-24 08:34:29:274 0 sec: 0 operations; est completion in 0 second 
+Oct 24, 2026 8:34:29 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster created with settings {hosts=[127.0.0.1:27028], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='5000 ms', maxWaitQueueSize=640}
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+Oct 24, 2026 8:34:29 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:34:29 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:34:29 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:34:29 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:34:29 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:34:29 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:34:29 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:34:29 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:34:29 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:1}] to 127.0.0.1:27028
+Oct 24, 2026 8:34:29 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27028, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[8, 0, 34]}, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2347242}
+Oct 24, 2026 8:34:29 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:8}] to 127.0.0.1:27028
+Oct 24, 2026 8:34:29 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:9}] to 127.0.0.1:27028
+Oct 24, 2026 8:34:29 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:2}] to 127.0.0.1:27028
+Oct 24, 2026 8:34:29 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:4}] to 127.0.0.1:27028
+Oct 24, 2026 8:34:29 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:5}] to 127.0.0.1:27028
+Oct 24, 2026 8:34:29 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:7}] to 127.0.0.1:27028
+Oct 24, 2026 8:34:29 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:3}] to 127.0.0.1:27028
+Oct 24, 2026 8:34:29 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:6}] to 127.0.0.1:27028
+2026-10-24 08:34:34:238 5 sec: 32482 operations; 6495.1 current ops/sec; est completion in 4 hours 16 minutes [READ: Count=30892, Max=68031, Min=159, Avg=1134.16, 90=1476, 99=8295, 99.9=52895, 99.99=67967] [UPDATE: Count=1613, Max=48447, Min=254, Avg=1330.87, 90=2259, 99=7219, 99.9=34847, 99.99=48447] [Intended-READ: Count=31205, Max=68031, Min=159, Avg=1130.09, 90=1469, 99=8127, 99.9=52895, 99.99=67967] [Intended-UPDATE: Count=1615, Max=48447, Min=254, Avg=1330.59, 90=2259, 99=7219, 99.9=34847, 99.99=48447] 
+2026-10-24 08:34:39:238 10 sec: 73247 operations; 8153 current ops/sec; est completion in 3 hours 47 minutes [READ: Count=38746, Max=57279, Min=152, Avg=965.81, 90=975, 99=7175, 99.9=48927, 99.99=56703] [UPDATE: Count=2010, Max=54047, Min=266, Avg=1128.52, 90=1148, 99=21775, 99.9=45631, 99.99=54047] [Intended-READ: Count=38670, Max=57279, Min=152, Avg=966.38, 90=974, 99=7175, 99.9=48927, 99.99=56703] [Intended-UPDATE: Count=2018, Max=54047, Min=266, Avg=1127.47, 90=1147, 99=21775, 99.9=45631, 99.99=54047] 
+2026-10-24 08:34:44:238 15 sec: 115382 operations; 8427 current ops/sec; est completion in 3 hours 36 minutes [READ: Count=40049, Max=58879, Min=146, Avg=938.87, 90=940, 99=2951, 99.9=51199, 99.99=57599] [UPDATE: Count=2078, Max=57951, Min=302, Avg=1059.12, 90=1079, 99=3727, 99.9=52767, 99.99=57951] [Intended-READ: Count=39899, Max=58879, Min=146, Avg=939.92, 90=940, 99=2985, 99.9=51199, 99.99=57599] [Intended-UPDATE: Count=2068, Max=57951, Min=302, Avg=1060.32, 90=1079, 99=3727, 99.9=52767, 99.99=57951] 
+2026-10-24 08:34:49:238 20 sec: 156192 operations; 8162 current ops/sec; est completion in 3 hours 33 minutes [READ: Count=38805, Max=63103, Min=166, Avg=968.96, 90=951, 99=3515, 99.9=51007, 99.99=61279] [UPDATE: Count=2005, Max=61567, Min=253, Avg=1102.18, 90=1101, 99=21935, 99.9=51167, 99.99=61567] [Intended-READ: Count=38739, Max=63103, Min=166, Avg=969.16, 90=951, 99=3649, 99.9=51007, 99.99=61279] [Intended-UPDATE: Count=2005, Max=61567, Min=253, Avg=1102.22, 90=1101, 99=21935, 99.9=51167, 99.99=61567] 
+2026-10-24 08:34:54:236 24 sec: 193641 operations; 7492.8 current ops/sec; est completion in 3 hours 34 minutes [READ: Count=35520, Max=59519, Min=188, Avg=1060.39, 90=1065, 99=23439, 99.9=51487, 99.99=58591] [UPDATE: Count=1935, Max=58655, Min=262, Avg=1122.35, 90=1162, 99=4191, 99.9=49791, 99.99=58655] [Intended-READ: Count=35760, Max=59519, Min=188, Avg=1057.63, 90=1063, 99=23247, 99.9=51487, 99.99=58591] [Intended-UPDATE: Count=1941, Max=58655, Min=262, Avg=1120.98, 90=1161, 99=4191, 99.9=49791, 99.99=58655] 
+Maximum time elapsed. Requesting stop for the workload.
+Stop requested for workload. Now Joining!
+Oct 24, 2026 8:34:59 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:2}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:34:59 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:9}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:34:59 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:4}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:34:59 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:3}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:34:59 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:8}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:34:59 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:7}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:34:59 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:6}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:34:59 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:5}] to 127.0.0.1:27028 because the pool has been closed.
+2026-10-24 08:34:59:236 29 sec: 233140 operations; 7899.8 current ops/sec; est completion in 3 hours 33 minutes [READ: Count=37581, Max=71871, Min=169, Avg=995.95, 90=1026, 99=11967, 99.9=49567, 99.99=56607] [UPDATE: Count=1908, Max=70527, Min=283, Avg=1255.74, 90=1158, 99=25151, 99.9=60895, 99.99=70527] [Intended-READ: Count=37349, Max=71871, Min=169, Avg=998.26, 90=1028, 99=12559, 99.9=49855, 99.99=56607] [Intended-CLEANUP: Count=8, Max=8439, Min=1, Avg=1057.12, 90=8, 99=8439, 99.9=8439, 99.99=8439] [Intended-UPDATE: Count=1902, Max=70527, Min=283, Avg=1257.63, 90=1158, 99=25151, 99.9=60895, 99.99=70527] 
+2026-10-24 08:34:59:279 30 sec: 233171 operations; 720.93 current ops/sec; est completion in 3 hours 34 minutes [READ: Count=29, Max=1154, Min=488, Avg=798.93, 90=997, 99=1154, 99.9=1154, 99.99=1154] [CLEANUP: Count=8, Max=8439, Min=0, Avg=1056.12, 90=7, 99=8439, 99.9=8439, 99.99=8439] [UPDATE: Count=0, Max=0, Min=9223372036854775807, Avg=NaN, 90=0, 99=0, 99.9=0, 99.99=0] [Intended-READ: Count=0, Max=0, Min=9223372036854775807, Avg=NaN, 90=0, 99=0, 99.9=0, 99.99=0] [Intended-CLEANUP: Count=0, Max=0, Min=9223372036854775807, Avg=NaN, 90=0, 99=0, 99.9=0, 99.99=0] [Intended-UPDATE: Count=0, Max=0, Min=9223372036854775807, Avg=NaN, 90=0, 99=0, 99.9=0, 99.99=0] 

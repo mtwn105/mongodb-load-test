@@ -1,0 +1,470 @@
+Command line: -t -db site.ycsb.db.MongoDbClient -s -P workload.properties -threads 64 -p recordcount=100000 -p mongodb.url=mongodb://127.0.0.1:27028/mongodb_loadtest_ycsb?w=1&readPreference=primary&readConcernLevel=local&maxPoolSize=128&retryWrites=false&waitQueueTimeoutMS=2000&connectTimeoutMS=5000&socketTimeoutMS=5000&serverSelectionTimeoutMS=5000 -p hdrhistogram.fileoutput=true -p hdrhistogram.output.path=/home/mtwn105/blog/posts/mongodb-load-test/project/results/experiment-1/t64-r3- -p maxexecutiontime=30
+YCSB Client 0.17.0
+
+Loading workload...
+Starting test.
+Maximum execution time specified as: 30 secs
+2026-10-24 08:36:03:328 0 sec: 0 operations; est completion in 0 second 
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster created with settings {hosts=[127.0.0.1:27028], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='5000 ms', maxWaitQueueSize=640}
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:1}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27028, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[8, 0, 34]}, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2768980}
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:8}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:49}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:40}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:16}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:23}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:47}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:3}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:5}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:48}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:46}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:6}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:50}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:12}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:41}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:45}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:44}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:43}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:53}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:18}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:39}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:17}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:34}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:55}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:54}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:27}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:9}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:63}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:38}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:37}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:35}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:25}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:11}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:7}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:14}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:21}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:42}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:56}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:29}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:36}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:59}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:4}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:33}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:26}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:32}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:64}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:30}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:62}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:51}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:13}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:58}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:10}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:57}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:19}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:52}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:28}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:20}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:31}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:22}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:60}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:2}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:15}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:24}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:65}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:03 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:61}] to 127.0.0.1:27028
+2026-10-24 08:36:08:280 5 sec: 46090 operations; 9218 current ops/sec; est completion in 3 hours [READ: Count=43849, Max=187903, Min=128, Avg=6274.61, 90=6259, 99=77887, 99.9=116863, 99.99=179967] [UPDATE: Count=2286, Max=195839, Min=295, Avg=7309.09, 90=7659, 99=78911, 99.9=157439, 99.99=195839] [Intended-READ: Count=44701, Max=187903, Min=128, Avg=6304.94, 90=6359, 99=77823, 99.9=116799, 99.99=179967] [Intended-UPDATE: Count=2286, Max=195839, Min=295, Avg=7309.2, 90=7659, 99=78911, 99.9=157439, 99.99=195839] 
+2026-10-24 08:36:13:280 10 sec: 101824 operations; 11146.8 current ops/sec; est completion in 2 hours 43 minutes [READ: Count=52938, Max=98559, Min=134, Avg=5722.28, 90=3507, 99=79359, 99.9=83391, 99.99=89599] [UPDATE: Count=2808, Max=85567, Min=267, Avg=6061.66, 90=3927, 99=79743, 99.9=83775, 99.99=85567] [Intended-READ: Count=53197, Max=98559, Min=134, Avg=5676.52, 90=3433, 99=79359, 99.9=83391, 99.99=89599] [Intended-UPDATE: Count=2808, Max=85567, Min=267, Avg=6061.7, 90=3927, 99=79743, 99.9=83775, 99.99=85567] 
+2026-10-24 08:36:18:280 15 sec: 158586 operations; 11352.4 current ops/sec; est completion in 2 hours 37 minutes [READ: Count=53791, Max=97791, Min=129, Avg=5600.51, 90=3579, 99=79231, 99.9=84095, 99.99=92415] [UPDATE: Count=2948, Max=91647, Min=233, Avg=6098.1, 90=4039, 99=78719, 99.9=83583, 99.99=91647] [Intended-READ: Count=53417, Max=97791, Min=129, Avg=5653.7, 90=3687, 99=79359, 99.9=84223, 99.99=92607] [Intended-UPDATE: Count=2953, Max=91647, Min=233, Avg=6092.94, 90=4055, 99=78655, 99.9=83583, 99.99=91647] 
+2026-10-24 08:36:23:277 19 sec: 215152 operations; 11319.99 current ops/sec; est completion in 2 hours 34 minutes [READ: Count=53697, Max=97087, Min=137, Avg=5633.56, 90=3685, 99=78591, 99.9=82495, 99.99=89983] [UPDATE: Count=2887, Max=84543, Min=238, Avg=5905.03, 90=3825, 99=78335, 99.9=82239, 99.99=84543] [Intended-READ: Count=54212, Max=97087, Min=137, Avg=5575.88, 90=3561, 99=78527, 99.9=82175, 99.99=89983] [Intended-UPDATE: Count=2904, Max=84543, Min=238, Avg=5881.42, 90=3837, 99=78335, 99.9=82239, 99.99=84543] 
+2026-10-24 08:36:28:277 24 sec: 272149 operations; 11399.4 current ops/sec; est completion in 2 hours 32 minutes [READ: Count=54097, Max=95359, Min=142, Avg=5572.19, 90=3185, 99=79999, 99.9=85695, 99.99=94335] [UPDATE: Count=2897, Max=92863, Min=230, Avg=6275.69, 90=3845, 99=80127, 99.9=85055, 99.99=92863] [Intended-READ: Count=53890, Max=95359, Min=142, Avg=5592.26, 90=3201, 99=79935, 99.9=85631, 99.99=94271] [Intended-UPDATE: Count=2876, Max=92863, Min=230, Avg=6305.9, 90=3843, 99=80127, 99.9=85055, 99.99=92863] 
+Maximum time elapsed. Requesting stop for the workload.
+Stop requested for workload. Now Joining!
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:21}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:50}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:60}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:23}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:62}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:33}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:3}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:15}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:43}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:39}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:38}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:25}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:30}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:44}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:32}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:31}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:20}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:51}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:65}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:4}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:9}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:17}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:19}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:5}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:58}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:54}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:53}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:56}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:41}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:64}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:2}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:12}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:27}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:26}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:36}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:16}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:49}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:48}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:13}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:34}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:6}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:52}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:18}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:28}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:40}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:8}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:42}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:29}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:24}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:37}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:14}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:57}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:55}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:59}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:11}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:63}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:35}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:7}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:22}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:46}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:47}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:10}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:45}] to 127.0.0.1:27028 because the pool has been closed.
+Oct 24, 2026 8:36:33 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:61}] to 127.0.0.1:27028 because the pool has been closed.
+2026-10-24 08:36:33:277 29 sec: 332267 operations; 12023.6 current ops/sec; est completion in 2 hours 29 minutes [READ: Count=57037, Max=97407, Min=128, Avg=5306.28, 90=3067, 99=78655, 99.9=83007, 99.99=90815] [UPDATE: Count=3075, Max=84607, Min=259, Avg=5588.6, 90=3387, 99=79039, 99.9=82815, 99.99=84607] [Intended-READ: Count=56726, Max=97407, Min=128, Avg=5339.11, 90=3101, 99=78783, 99.9=83007, 99.99=90815] [Intended-CLEANUP: Count=64, Max=23423, Min=0, Avg=367, 90=1, 99=9, 99.9=23423, 99.99=23423] [Intended-UPDATE: Count=3082, Max=84607, Min=259, Avg=5581.96, 90=3387, 99=79039, 99.9=82815, 99.99=84607] 
+2026-10-24 08:36:33:362 30 sec: 333052 operations; 9345.24 current ops/sec; est completion in 2 hours 30 minutes [READ: Count=734, Max=83775, Min=172, Avg=8711.67, 90=14151, 99=81023, 99.9=82111, 99.99=83775] [CLEANUP: Count=64, Max=23423, Min=0, Avg=366.16, 90=1, 99=7, 99.9=23423, 99.99=23423] [UPDATE: Count=8, Max=5839, Min=1124, Avg=2527.88, 90=4139, 99=5839, 99.9=5839, 99.99=5839] [Intended-READ: Count=0, Max=0, Min=9223372036854775807, Avg=NaN, 90=0, 99=0, 99.9=0, 99.99=0] [Intended-CLEANUP: Count=0, Max=0, Min=9223372036854775807, Avg=NaN, 90=0, 99=0, 99.9=0, 99.99=0] [Intended-UPDATE: Count=0, Max=0, Min=9223372036854775807, Avg=NaN, 90=0, 99=0, 99.9=0, 99.99=0] 

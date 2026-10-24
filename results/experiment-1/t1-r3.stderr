@@ -1,0 +1,29 @@
+Command line: -t -db site.ycsb.db.MongoDbClient -s -P workload.properties -threads 1 -p recordcount=100000 -p mongodb.url=mongodb://127.0.0.1:27028/mongodb_loadtest_ycsb?w=1&readPreference=primary&readConcernLevel=local&maxPoolSize=128&retryWrites=false&waitQueueTimeoutMS=2000&connectTimeoutMS=5000&socketTimeoutMS=5000&serverSelectionTimeoutMS=5000 -p hdrhistogram.fileoutput=true -p hdrhistogram.output.path=/home/mtwn105/blog/posts/mongodb-load-test/project/results/experiment-1/t1-r3- -p maxexecutiontime=30
+YCSB Client 0.17.0
+
+Loading workload...
+Starting test.
+Maximum execution time specified as: 30 secs
+2026-10-24 08:36:34:703 0 sec: 0 operations; est completion in 0 second 
+Oct 24, 2026 8:36:34 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster created with settings {hosts=[127.0.0.1:27028], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='5000 ms', maxWaitQueueSize=640}
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+Oct 24, 2026 8:36:34 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 5000 ms before timing out
+Oct 24, 2026 8:36:34 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:1}] to 127.0.0.1:27028
+Oct 24, 2026 8:36:34 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27028, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[8, 0, 34]}, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2295026}
+Oct 24, 2026 8:36:34 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:2}] to 127.0.0.1:27028
+2026-10-24 08:36:39:663 5 sec: 14473 operations; 2894.6 current ops/sec; est completion in 9 hours 35 minutes [READ: Count=13786, Max=49471, Min=121, Avg=308.39, 90=478, 99=937, 99.9=2163, 99.99=6267] [UPDATE: Count=693, Max=8615, Min=216, Avg=527.95, 90=796, 99=1389, 99.9=2877, 99.99=8615] [Intended-READ: Count=13837, Max=49471, Min=121, Avg=308.39, 90=478, 99=938, 99.9=2163, 99.99=6267] [Intended-UPDATE: Count=694, Max=8615, Min=216, Avg=527.99, 90=796, 99=1389, 99.9=2877, 99.99=8615] 
+2026-10-24 08:36:44:663 10 sec: 34373 operations; 3980 current ops/sec; est completion in 8 hours 4 minutes [READ: Count=18958, Max=10943, Min=122, Avg=240.99, 90=359, 99=607, 99.9=862, 99.99=2813] [UPDATE: Count=937, Max=1072, Min=170, Avg=367.66, 90=508, 99=769, 99.9=1019, 99.99=1072] [Intended-READ: Count=18934, Max=10943, Min=122, Avg=240.9, 90=359, 99=607, 99.9=862, 99.99=2813] [Intended-UPDATE: Count=937, Max=1072, Min=170, Avg=367.54, 90=508, 99=769, 99.9=1019, 99.99=1072] 
+2026-10-24 08:36:49:663 15 sec: 54487 operations; 4022.8 current ops/sec; est completion in 7 hours 38 minutes [READ: Count=19166, Max=3745, Min=125, Avg=238.68, 90=344, 99=557, 99.9=951, 99.99=3139] [UPDATE: Count=948, Max=1493, Min=163, Avg=369.78, 90=516, 99=839, 99.9=1178, 99.99=1493] [Intended-READ: Count=19161, Max=3745, Min=125, Avg=238.7, 90=344, 99=557, 99.9=951, 99.99=3139] [Intended-UPDATE: Count=949, Max=1493, Min=163, Avg=369.84, 90=516, 99=839, 99.9=1178, 99.99=1493] 
+2026-10-24 08:36:54:661 19 sec: 73723 operations; 3847.97 current ops/sec; est completion in 7 hours 31 minutes [READ: Count=18278, Max=3063, Min=123, Avg=251.02, 90=354, 99=585, 99.9=850, 99.99=1944] [UPDATE: Count=960, Max=971, Min=175, Avg=370.97, 90=507, 99=710, 99.9=841, 99.99=971] [Intended-READ: Count=18275, Max=3063, Min=123, Avg=251.11, 90=354, 99=585, 99.9=850, 99.99=1944] [Intended-UPDATE: Count=958, Max=971, Min=175, Avg=370.97, 90=507, 99=710, 99.9=841, 99.99=971] 
+2026-10-24 08:36:59:661 24 sec: 88902 operations; 3035.8 current ops/sec; est completion in 7 hours 48 minutes [READ: Count=14429, Max=21759, Min=123, Avg=317.69, 90=517, 99=1170, 99.9=3479, 99.99=12647] [UPDATE: Count=749, Max=4823, Min=176, Avg=484.56, 90=777, 99=2265, 99.9=4715, 99.99=4823] [Intended-READ: Count=14430, Max=21759, Min=123, Avg=317.87, 90=517, 99=1170, 99.9=3479, 99.99=12647] [Intended-UPDATE: Count=749, Max=4823, Min=176, Avg=484.58, 90=777, 99=2265, 99.9=4715, 99.99=4823] 
+Maximum time elapsed. Requesting stop for the workload.
+Stop requested for workload. Now Joining!
+Oct 24, 2026 8:37:04 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:2}] to 127.0.0.1:27028 because the pool has been closed.
+2026-10-24 08:37:04:661 29 sec: 107701 operations; 3759.8 current ops/sec; est completion in 7 hours 43 minutes [READ: Count=17869, Max=2801, Min=124, Avg=257.56, 90=393, 99=813, 99.9=1246, 99.99=2187] [UPDATE: Count=928, Max=1522, Min=169, Avg=379.37, 90=542, 99=1024, 99.9=1486, 99.99=1522] [Intended-READ: Count=17851, Max=2801, Min=124, Avg=257.44, 90=392, 99=811, 99.9=1246, 99.99=2187] [Intended-CLEANUP: Count=1, Max=4115, Min=4112, Avg=4114, 90=4115, 99=4115, 99.9=4115, 99.99=4115] [Intended-UPDATE: Count=928, Max=1522, Min=169, Avg=379.39, 90=542, 99=1024, 99.9=1486, 99.99=1522] 
+2026-10-24 08:37:04:679 30 sec: 107703 operations; 111.11 current ops/sec; est completion in 7 hours 44 minutes [READ: Count=2, Max=687, Min=410, Avg=548.5, 90=687, 99=687, 99.9=687, 99.99=687] [CLEANUP: Count=1, Max=4115, Min=4112, Avg=4114, 90=4115, 99=4115, 99.9=4115, 99.99=4115] [UPDATE: Count=0, Max=0, Min=9223372036854775807, Avg=NaN, 90=0, 99=0, 99.9=0, 99.99=0] [Intended-READ: Count=0, Max=0, Min=9223372036854775807, Avg=NaN, 90=0, 99=0, 99.9=0, 99.99=0] [Intended-CLEANUP: Count=0, Max=0, Min=9223372036854775807, Avg=NaN, 90=0, 99=0, 99.9=0, 99.99=0] [Intended-UPDATE: Count=0, Max=0, Min=9223372036854775807, Avg=NaN, 90=0, 99=0, 99.9=0, 99.99=0] 
